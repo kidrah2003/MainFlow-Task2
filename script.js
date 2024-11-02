@@ -1,4 +1,3 @@
-// Slideshow
 let currentSlide = 0;
 const slides = ["animal1.jpg", "animal2.jpg", "animal3.jpg", "animal4.jpg", "animal5.jpg"];
 
@@ -16,5 +15,4 @@ function prevSlide() {
     showSlide(currentSlide);
 }
 
-// Initial slide
 showSlide(currentSlide);
